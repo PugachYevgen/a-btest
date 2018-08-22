@@ -662,6 +662,37 @@ aside + .content
 	left: 0
 	cursor: pointer
 	display: none
+#viewport
+	width: 100%
+	position: relative
+	overflow: hidden
+	-webkit-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	-o-user-select: none
+	user-select: none
+	text-align: center
+
+#slidewrapper
+	position: relative
+	width: calc(100% * 4)
+	-webkit-transition: 1s
+	-o-transition: 1s
+	transition: 1s
+	-webkit-transition-timing-function: cubic-bezier(0.67, 0.01, 0.23, 1)
+	-o-transition-timing-function: cubic-bezier(0.67, 0.01, 0.23, 1)
+	transition-timing-function: cubic-bezier(0.67, 0.01, 0.23, 1)
+	margin: 0
+	padding: 0
+	ul, li
+		margin: 0
+		padding: 0
+
+.slide
+	width: calc(100%/4)
+	list-style: none
+	display: inline
+	float: left
 footer
 	position: absolute
 	bottom: 0
