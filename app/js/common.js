@@ -72,5 +72,13 @@ $(document).ready(function(){
 
     $('.refresh-btn').click(function() {
         $('input:checked').prop('checked', false);
+        return false
     });
+});
+
+$(document).ready(function () {
+  $(".fa-star").click(function(){
+      $(this).toggleClass('star-color')
+      return false
+  }) ;
 });
