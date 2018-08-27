@@ -75,12 +75,19 @@ $(document).ready(function(){
         return false
     });
 });
-
+/*********** смена цвета звезд ************/
 $(document).ready(function () {
-  $(".fa-star").click(function(){
+  $(".star").click(function(){
       $(this).toggleClass('star-color')
       return false
   }) ;
+});
+
+$(document).ready(function () {
+    $('.star-btn').click(function() {
+        $('.star').removeClass('star-color');
+        return false
+    });
 });
 
 
