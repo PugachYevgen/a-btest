@@ -3,13 +3,13 @@
 $( document ).ready(function(){
     $(".burger-btn").click(function(){
         $('aside').toggleClass('active');
-        if ($('nav span').hasClass('hide')) {
+        if ($('aside nav span').hasClass('hide')) {
             setTimeout(function(){
-                $('nav span').removeClass('hide');
+                $('aside nav span').removeClass('hide');
             }, 200);
         }
         else{
-            $('nav span').addClass('hide')
+            $('aside nav span').addClass('hide')
         };
         return false
 
@@ -94,19 +94,11 @@ $(document).ready(function () {
 /********* Карусель *******/
 
 var slideNow = 1;
-var slideCount = $('#slidewrapper').children().length;
-// var slideInterval = 3000;
-// var navBtnId = 0;
+var slideCount = $('#slidewrapper').children().length; /* возвращает кол-во таблиц в слайдере */
 var translateWidth = 0;
 
 $(document).ready(function() {
-    // var switchInterval = setInterval(nextSlide, slideInterval);
-    //
-    // $('#viewport').hover(function() {
-    //     clearInterval(switchInterval);
-    // }, function() {
-    //     switchInterval = setInterval(nextSlide, slideInterval);
-    // });
+
 
     $('#next-btn').click(function() {
         nextSlide();

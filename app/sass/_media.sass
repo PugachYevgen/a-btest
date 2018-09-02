@@ -4,9 +4,14 @@
 /*==========  Desktop First  ==========*/
 
 // ≥1200px
-+media-breakpoint-down(lg)
-
++media-breakpoint-down(xl)
+  footer
+    padding-bottom: 5px
 // ≥992px
++media-breakpoint-down(lg)
+  footer
+    padding-bottom: 5px
+// ≥768px
 +media-breakpoint-down(md)
   body
     font-size: 15px
@@ -43,8 +48,11 @@
   .desktop_toolbar_pagination-form
     right: 10px
     width: 40px
-
-// ≥768px
+  .language
+    width: 150px
+  footer
+    padding-bottom: 5px
+// ≥576px
 +media-breakpoint-down(sm)
   .content
     flex-direction: column
@@ -61,6 +69,9 @@
   .mail_nav
     height: 100%
     width: 49%
+    ul
+      li
+        padding-top: 5px
   .mail_online
     height: 100%
     width: 49%
@@ -74,21 +85,43 @@
 
   .serach_form
     display: none
-// ≥576px
+  footer
+    padding-bottom: 5px
+//>0
 +media-breakpoint-down(xs)
+  body
+    font-size: 14px
+    height: 110vh
+  aside
+    height: calc(110vh - 50px)
+  .table-container
+    height: 77%
+  .desktop_toolbar
+    height: 13%
+  .mail_nav
+    ul
+      border-top: none
   .mail-btn
-
-    height: 30px
-    margin-top: -15px
+    height: 100%
+    width: 100%
+    margin-top: 0
+    margin-left: 0
+    top: 0
+    left: 0
+    border-radius: 0
     i
       display: none
   .logo
     display: none
   .language
-    width: 150px
-  //.language_icon
-  //  display: none
-
+    width: 80px
+    border-left: 1px solid #c7c7c7
+  .language_icon
+    display: none
+  .language_list
+    padding-right: 15px
+  .language_drop-target
+    right: 10px
   .profile
     width: 85px
     span
@@ -100,12 +133,19 @@
     ul
       li
         padding-top: 5px
+        padding-left: 5px
   .table-container
     table
       tr
         td
           &:nth-of-type(5)
             padding-left: 0px
+  .mail_online
+    figure
+      ul
+        padding-left: 25px
+      button
+         padding-left: 6px
   footer
     width: calc(100% - 50px)
     font-size: .6em
@@ -113,6 +153,10 @@
   .desktop_toolbar_form
     input
       display: none
+    button
+      margin-right: 0
+      &:nth-of-type(1)
+        margin-left: 5px
   aside.active + .content
     opacity: 0
   .desktop_container_title
