@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f9e873b-d2a3-414f-8e0c-5923070335d7" name="Default" comment="working carousel with fixed sass">
+    <list default="true" id="0f9e873b-d2a3-414f-8e0c-5923070335d7" name="Default" comment="fix responsive">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_media.sass" afterPath="$PROJECT_DIR$/app/sass/_media.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,8 +69,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="59" column="53" lean-forward="false" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="53" />
+            <state relative-caret-position="235">
+              <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -349,7 +343,7 @@
       <workItem from="1535372924985" duration="2224000" />
       <workItem from="1535387492258" duration="2094000" />
       <workItem from="1535633987305" duration="3171000" />
-      <workItem from="1535919080428" duration="7030000" />
+      <workItem from="1535919080428" duration="7374000" />
     </task>
     <task id="LOCAL-00001" summary="webstorm changes">
       <created>1534174937622</created>
@@ -421,11 +415,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535374745001</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix responsive">
+      <created>1535932601530</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1535932601530</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32956000" />
+    <option name="totallyTimeSpent" value="33300000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,7 +503,8 @@
     <MESSAGE value="working carousel" />
     <MESSAGE value="working carousel with fixed sass" />
     <MESSAGE value="working carousel with fixed sass, added classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="working carousel with fixed sass, added classes" />
+    <MESSAGE value="fix responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix responsive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -828,8 +830,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="59" column="53" lean-forward="false" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="53" />
+        <state relative-caret-position="235">
+          <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
           <folding />
         </state>
       </provider>
