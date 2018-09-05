@@ -42,8 +42,8 @@ $(document).ready(function(){
     $('.profile_drop-target').click(function(){
         $('.profile_namigation').toggleClass('hide')
     });
-});
 
+});
 
 
 ///// popup
@@ -96,7 +96,6 @@ $(document).ready(function () {
 var slideNow = 1;
 var slideCount = $('#slidewrapper').children().length; /* возвращает кол-во таблиц в слайдере */
 var translateWidth = 0;
-
 $(document).ready(function() {
 
 
